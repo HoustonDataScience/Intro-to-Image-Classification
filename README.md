@@ -1,6 +1,11 @@
 # Introduction to Image Classification with Python
 
-In this (Houston Data Science)[1] meetup, we will teach you how to do simple image classification tasks.
+In this [Houston Data Science][1] meetup, we will teach you how to do simple image classification tasks. The focus of this session will be to learn how to use neural networks to do a simple image classification problem.
+
+## Prerequisities
+1. Nothing more than high school or first year undergraduate math - matrices, how to differentiate etc.
+2. Working knowledge of Python
+3. Laptop preferably with an NVidia GPU. If not, don't worry about it.
 
 # Install Python 3 on your own BEFORE coming to class
 Follow the tutorial in the [Intro to Python][2] repository in order to install the Anaconda distribution with Python 3.
@@ -11,4 +16,7 @@ Also, install the following libraries. If you use the Anaconda distribution, the
 2. matplotlib
 3. torchvision
 
-It will be better if you have access to a GPU on your laptop. Otherwise, I will show you an easy way if you don't have access to a GPU.
+It will be better if you have a NVidia GPU on your laptop.
+
+[1]: https://www.meetup.com/Houston-Data-Science/events/253239998/
+[2]: https://github.com/HoustonDataScience/Intro-to-Python
