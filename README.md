@@ -23,6 +23,14 @@ It will be better if you have a NVidia GPU on your laptop.
 # Option 2: Use Google's colab + github
 Google recently announced their version of Jupyter notebooks called as [colab][3] where they offer free GPUs for use. It is sufficient to have a Google account to use their colab notebooks.
 
+It is important to note that colab's notebooks use Python 3.6 and CUDA8. 
+
+Install the appropriate version of `torch` as follows:
+```
+!pip3 install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-linux_x86_64.whl 
+!pip3 install torchvision
+```
+
 [1]: https://www.meetup.com/Houston-Data-Science/events/253239998/
 [2]: https://github.com/HoustonDataScience/Intro-to-Python
 [3]: https://colab.research.google.com/
