@@ -12,9 +12,11 @@ Follow the tutorial in the [Intro to Python][2] repository in order to install t
 
 Also, install the following libraries. If you use the Anaconda distribution, these libraries should be easily installable with `conda`.
 
-1. torch
+1. torch>=0.4.0
 2. matplotlib
 3. torchvision
+4. pandas
+5. scikit-learn
 
 It will be better if you have a NVidia GPU on your laptop.
 
